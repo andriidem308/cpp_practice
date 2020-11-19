@@ -1,0 +1,23 @@
+3
+Application 4 200
+WebSite 3 220
+OperationSystem 3 600
+2
+WebDesigner 850
+Developer 1100
+5
+Python 1 280
+C++ 1 230
+Java 1 280
+CSharp 1 250
+GoLang 1 180
+6
+Olexiy Troshchy 19 7
+Olexandr Nikiforov 18 7
+Bohdan Korinovsky 19 5
+Vlad Bilenko 18 4
+Olexandr Chicha 18 5
+Yaroslav Fedchenko 18 8
+2
+Andrii Demchenko 18 10
+Eugeniy Fedchenko 46 30

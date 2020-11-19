@@ -1,0 +1,11 @@
+1
+Application 4 200
+1
+WebDesigner 850
+1
+Python 1 280
+2
+Olexiy Troshchy 19 7
+Olexandr Nikiforov 18 7
+1
+Andrii Demchenko 18 4

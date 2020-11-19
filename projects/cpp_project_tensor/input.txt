@@ -1,0 +1,32 @@
+3
+2 4 4
+
+1 2 3 4
+1 2 3 4
+1 2 3 5
+1 2 3 6
+
+1 2 2 8
+2 3 4 1
+3 1 2 2
+8 8 8 9
+
+3
+2 4 4
+
+2 -2 3 4
+2 21 3 4
+1 19 3 5
+1 30 3 6
+
+1 2 2 8
+2 3 4 1
+3 1 2 2
+8 8 8 9
+
+
+# Text between hashtags is comment #
+# Print at the begin of file your 2 tensors in such structure: #
+# N   - dimension #
+# N1 N2 N3 N4 N5 ... NN  - shape (N numbers, separated by the space or enter) #
+# N1*N2*N3*...NN numbers separated by the space or enter #

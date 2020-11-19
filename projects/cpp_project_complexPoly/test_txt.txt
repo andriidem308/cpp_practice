@@ -1,0 +1,28 @@
+4.1 5.2 6.1 7.2 7.7 8.8
+1.2 3.4 1.0 7.9 1.2 6.6 0.1 0.3
+8.2 4.9 6.2 2.5
+1.9 6.2 4.4 2.2 1.7 1.2
+
+
+// differentiate this polynomial and return it
+Polynomial differentiate()
+{
+  if ( deg == 0 )  {
+     Polynomial t;
+     t.set ( 0, 0 );
+     return t;
+  }
+  Polynomial deriv;// = new Polynomial ( 0, deg - 1 );
+  deriv.deg = deg - 1;
+  for ( int i = 0; i < deg; i++ )
+     deriv.coef[i] = ( i + 1 ) * coef[i + 1];
+  return deriv;
+}
+
+int evaluate ( int x )
+{
+  int p = 0;
+  for ( int i = deg; i >= 0; i-- )
+     p = coef[i] + ( x * p );
+  return p;
+}
